@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(255, 253, 247);
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  position: absolute;
+}
+#cover {
+  position: absolute;
+  top: 120px;
+  height: 820px;
+  width: 500px;
+  background-color: rgb(255, 253, 247);
+}
+.wt_outer {
+  display: flex;
+  background-color: white;
+  height: 400px;
+  width: 240px;
+  position: absolute;
+}
+.toma_outer {
+  left: 0px;
+}
+.teal_outer {
+  right: 0px;
+}
+.burlywood_outer {
+  left: 0px;
+  bottom: 0px;
+}
+.thistle_outer {
+  right: 0px;
+  bottom: 0px;
+}
+.wt_line {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  background-color: white;
+  width: 240px;
+  height: 120px;
+}
+.inner {
+  position: absolute;
+  height: 380px;
+  width: 220px;
+  top: 10px;
+  left: 10px;
+}
+h3 {
+  margin: 10px;
+}
+h4 {
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+div[class="wt_outer toma_outer"] > div[class="inner"] {
+  background-color: tomato;
+}
+div[class="wt_outer teal_outer"] > div[class="inner"] {
+  background-color: teal;
+}
+div[class="wt_outer burlywood_outer"] > div[class="inner"] {
+  background-color: burlywood;
+}
+div[class="wt_outer thistle_outer"] > div[class="inner"] {
+  background-color: thistle;
+}

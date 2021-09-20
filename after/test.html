@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+
+    </head>
+    <body>
+        <h1>Create An Account</h1>
+        <form>
+            <div>
+                <label for="fn">First Name</label>
+                <input required type="name" placeholder="First Name" id="fn" />
+            </div>
+            <div>
+                <label for="ln">Last Name</label>
+                <input required type="name" placeholder="Last Name" id="ln" />
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input required type="email" placeholder="Email" id="emil" />
+            </div>
+            <div>
+                <label for="un">Username</label>
+                <input required type="Username" placeholder="Username" id="un" />
+            </div>
+            <div>
+                <label for="pw">Password</label>
+                <input required minlength="10" type="password" placeholder="Password" id="pw" />
+            </div>
+            <div>
+                <label for="date">Birth date</label>
+                <input required type="date" id="date" name="Birth date" />
+            </div>
+            <div>
+                <label for="range">How happy are you?</label>
+                <input required type="range" list="tickmarks" min="0" max="10" step="1" value="5">
+                <option value="0"></option>
+                <datalist id="tickmarks">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>    
+                </datalist>
+            </div>
+            <div>
+                <label for="cor">What is your fav.color?</label>
+                <input required type="color" id="cor">
+            </div>
+            <div>
+                <input type="submit" value="Create Account">
+            </div>
+        </form>
+    </body>
+</html>

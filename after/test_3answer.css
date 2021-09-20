@@ -1,0 +1,70 @@
+body {
+  background-color: #f5f5f5;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Title-box {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+  margin-bottom: 25px;
+}
+.Title-box span {
+  font-size: 28px;
+  font-weight: 900;
+}
+.First-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Second-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.First-group > div {
+  width: 160px;
+  height: 280px;
+  border: 4px solid white;
+}
+.Second-group > div {
+  width: 160px;
+  height: 280px;
+  border: 4px solid white;
+}
+.First-group > div:first-child {
+  background-color: #ff6347;
+  margin: 0px 10px 15px 0px;
+}
+.First-group > div:last-child {
+  background-color: #008080;
+  margin: 0px 0px 15px 10px;
+}
+.Second-group > div:first-child {
+  background-color: #deb887;
+  margin: 15px 10px 0px 0px;
+}
+.Second-group > div:last-child {
+  background-color: #d7bfd7;
+  margin: 15px 0px 0px 10px;
+}
+.color-box {
+  background-color: white;
+  margin-top: 15px;
+  padding: 50px 0px;
+  position: relative;
+}
+.color-box span:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  top: 15px;
+  left: 7px;
+}
+.color-box span:last-child {
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 20px;
+  left: 7px;
+}
